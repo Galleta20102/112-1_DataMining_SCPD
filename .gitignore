@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Rxperiments result
+*.pdf
+
 # C extensions
 *.so
 
