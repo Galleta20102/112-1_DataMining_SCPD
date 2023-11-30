@@ -5,8 +5,8 @@
 python == 3.8
 numpy == 1.22
 ```
-If you run in *conda enviroment*, you may need to install some necessary packages. <br>
-Run following instruction to install package with *conda*:
+If you run in **conda enviroment**, you may need to install some necessary packages. <br>
+Run following instruction to install package with **conda**:
 ```
 conda install scipy
 conda install matplotlib
