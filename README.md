@@ -6,8 +6,6 @@
 Team 9 : `M11215021 洪子涵`, `M11202152 李尚霖`,　`M11202156 張暐杰`,
 `M11215029 章詣欣`,　`M11215077 管子竣`,　`M11215094 李文正`.
 
-<br><br>
-
 Paper :  PAKDD 2023 paper [Fast and Attributed Change Detection on Dynamic Graphs with Density of States](https://arxiv.org/abs/2305.08750)
 Official code repository : [Github](https://github.com/shenyangHuang/SCPD)
 
@@ -44,6 +42,7 @@ Dataset Links used by the author in the SCPD paper:
 
 The additional data set we applied is the flight records of the United States from Kaggle :
 - Kaggle Dataset: [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset)
+
 We use `datasets/airport_USAflight_dataPre.py` to and convert the dataset into `airport_USAflight.txt` in the format of `<date>, <departure airport>, <destination airport>, <number of flights>`.
 The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding index of each airport sorted according to ASCII.
 
