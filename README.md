@@ -50,7 +50,7 @@ Dataset Links used by the author in the SCPD paper:
 The additional dataset we applied is the flight records of the United States from Kaggle :
 - Kaggle Dataset: [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset)
 
-We use `datasets/airport_USAflight_dataPre.py` to and convert the dataset into `airport_USAflight.txt` in the format of *`<date>, <departure airport>, <destination airport>, <number of flights>`*.<br>
+We use `datasets/airport_USAflight_dataPre.py` to and convert the dataset into `airport_USAflight.txt` in the format of ***<date>, <departure airport>, <destination airport>, <number of flights>***.<br>
 The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding index of each airport sorted according to ASCII.
 
 
