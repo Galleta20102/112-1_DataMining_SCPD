@@ -24,7 +24,7 @@ conda activate SCPD
 ```
 
 Then you need to install some necessary packages. <br>
-Execute the following command to install the package using **conda**:
+Execute the following command to install the package using **conda** :
 
 ```
 conda install numpy==1.22
@@ -42,7 +42,7 @@ deactivate
 ```
 
 ## Getting the dataset
-Dataset Links used by the author in the SCPD paper:
+Dataset Links used by the author in the SCPD paper :
 - MAG History dataset : [history_scpd](https://object-arbutus.cloud.computecanada.ca/tgb/history_scpd.zip)
 - COVID flight dataset: [fight_scpd](https://object-arbutus.cloud.computecanada.ca/tgb/flight_scpd.zip)
 - Stablecoin dataset: [stablecoin_scpd](https://object-arbutus.cloud.computecanada.ca/tgb/stablecoin_scpd.zip)
