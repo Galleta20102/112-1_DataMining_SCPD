@@ -5,6 +5,7 @@ __pycache__/
 
 # Rxperiments result
 *.pdf
+*.pkl
 
 # C extensions
 *.so

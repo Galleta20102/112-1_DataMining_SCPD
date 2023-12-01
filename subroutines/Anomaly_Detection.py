@@ -522,7 +522,7 @@ def plot_dblp_spectro2(fname, scores, score_labels, events, event_labels, diag_v
     #wars = [(24,28), (102,108), (110,111), (113,116)]
     #for x1,x2 in wars:
         #axs.axvspan(x1, x2, alpha=0.5, color=bar_c)
-    axs.axvline(x=97,alpha=0.5, color=bar_c)
+    #axs.axvline(x=97,alpha=0.5, color=bar_c)
 
     axs.plot(t, z_scores, color=colors[1], ls='solid', lw=0.5, label="SCPD score")
 

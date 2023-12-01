@@ -74,7 +74,7 @@ Taking the [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa
 it will output `airport_USAflightSpectro.pdf`.<br>
 There will be a chart where you can observe anomalies in the dataset at different times.<br>
 
-![The anomalies detection result of USA Airport Dataset](image.png)
+![The anomalies detection result of USA Airport Dataset](image-1.png)
 
 <br>
 
