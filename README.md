@@ -56,15 +56,15 @@ The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding i
 
 ## Running the code
 :white_check_mark: We have placed the dataset in the specified folder in `/datasets`.
-- Run the following instruction to compute **DOS embedding** to generate the pkl of the dataset :
-
+- First, we need to change directory before running the code :
 ```
 cd subroutines
+```
+- Run the following instruction to compute **DOS embedding** to generate the pkl of the dataset :
+```
 python dos.py
 ```
-
 - Then run the following instruction to detect abnormal points in DOS embedding :
-
 ```
 python Anomaly_Detection.py
 ```
