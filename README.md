@@ -1,11 +1,15 @@
 # 112-1_DataMining_SCPD
 2023 Data Mining Final Project
+
 > National Taiwan University of Science and Technology (NTUST)
+
 Team 9 : `M11215021 洪子涵`, `M11202152 李尚霖`,　`M11202156 張暐杰`,
-`M11215029 章詣欣`,　`M11215077 管子竣`,　`M11215094 李文正`
+`M11215029 章詣欣`,　`M11215077 管子竣`,　`M11215094 李文正`.
+
 <br><br>
+
 Paper :  PAKDD 2023 paper [Fast and Attributed Change Detection on Dynamic Graphs with Density of States](https://arxiv.org/abs/2305.08750)
-Official code repository : [SCPD](https://github.com/shenyangHuang/SCPD)
+Official code repository : [Github](https://github.com/shenyangHuang/SCPD)
 
 [![Paper](https://img.shields.io/badge/Paper-link-orange.svg "PAKDD 2023 paper")](https://link.springer.com/book/10.1007/978-3-031-33374-3)
 [![arXiv](https://img.shields.io/badge/arXiv-pdf-yellow.svg "arXiv paper link")](https://arxiv.org/abs/2305.08750)
@@ -46,22 +50,28 @@ The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding i
 
 ## Running the code
 :white_check_mark: We have placed the dataset in the specified folder in `/datasets`.
-* Run the following instruction to compute **DOS embedding** to generate the pkl of the dataset :
+- Run the following instruction to compute **DOS embedding** to generate the pkl of the dataset :
 ```
 python subroutines/dos.py
 ```
 <br>
-* Then run the following instruction to detect abnormal points in DOS embedding :
+
+- Then run the following instruction to detect abnormal points in DOS embedding :
 ```
 python subroutines/Anomaly_Detection.py
 ```
 Finally, you will get the visual results corresponding to the dataset.
 Taking the [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset) from Kaggle as an example, 
 it will output `airport_USAflightSpectro.pdf`.
+
 <br>
+
 There will be a chart where you can observe anomalies in the dataset at different times.
+
 <br>
+
 ![The anomalies detection result of USA Airport Dataset](image.png)
+
 <br>
 
 > [!NOTE]
