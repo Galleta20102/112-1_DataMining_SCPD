@@ -54,8 +54,6 @@ The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding i
 ```
 python subroutines/dos.py
 ```
-<br>
-
 - Then run the following instruction to detect abnormal points in DOS embedding :
 ```
 python subroutines/Anomaly_Detection.py
@@ -63,11 +61,8 @@ python subroutines/Anomaly_Detection.py
 Finally, you will get the visual results corresponding to the dataset.
 Taking the [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset) from Kaggle as an example, 
 it will output `airport_USAflightSpectro.pdf`.
-
 <br>
-
 There will be a chart where you can observe anomalies in the dataset at different times.
-
 <br>
 
 ![The anomalies detection result of USA Airport Dataset](image.png)
