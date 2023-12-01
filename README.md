@@ -59,6 +59,7 @@ The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding i
 - Run the following instruction to compute **DOS embedding** to generate the pkl of the dataset :
 
 ```
+cd subroutines
 python dos.py
 ```
 
