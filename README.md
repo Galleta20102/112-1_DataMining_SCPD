@@ -47,27 +47,41 @@ Dataset Links used by the author in the SCPD paper:
 
 The additional data set we applied is the flight records of the United States from Kaggle :
 - Kaggle Dataset: [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset)
+
 <br>
+
 We use `datasets/airport_USAflight_dataPre.py` to and convert the dataset into `airport_USAflight.txt` in the format of `<date>, <departure airport>, <destination airport>, <number of flights>`.
+
 <br>
+
 The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding index of each airport sorted according to ASCII.
 
 
 ## Running the code
 :white_check_mark: We have placed the dataset in the specified folder in `/datasets`.
 - Run the following instruction to compute **DOS embedding** to generate the pkl of the dataset :
+
 ```
 python subroutines/dos.py
 ```
+
 - Then run the following instruction to detect abnormal points in DOS embedding :
+
 ```
 python subroutines/Anomaly_Detection.py
 ```
+
 Finally, you will get the visual results corresponding to the dataset.
+
+<br>
+
 Taking the [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset) from Kaggle as an example, 
 it will output `airport_USAflightSpectro.pdf`.
+
 <br>
+
 There will be a chart where you can observe anomalies in the dataset at different times.
+
 <br>
 
 ![The anomalies detection result of USA Airport Dataset](image.png)
