@@ -2,6 +2,8 @@
 2023 Data Mining Final Project
 
 > National Taiwan University of Science and Technology (NTUST)
+> Department of Computer Science and Information Engineering (CSIE)
+	
 
 Team 9 : `M11215021 洪子涵`, `M11202152 李尚霖`,　`M11202156 張暐杰`,
 `M11215029 章詣欣`,　`M11215077 管子竣`,　`M11215094 李文正`.
@@ -47,8 +49,6 @@ Dataset Links used by the author in the SCPD paper:
 
 The additional data set we applied is the flight records of the United States from Kaggle :
 - Kaggle Dataset: [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset)
-
-<br>
 
 We use `datasets/airport_USAflight_dataPre.py` to and convert the dataset into `airport_USAflight.txt` in the format of `<date>, <departure airport>, <destination airport>, <number of flights>`.<br>
 The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding index of each airport sorted according to ASCII.
