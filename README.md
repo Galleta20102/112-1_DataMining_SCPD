@@ -24,7 +24,7 @@ conda activate SCPD
 ```
 
 Then you need to install some necessary packages. <br>
-Execute the following command to install the package using **conda**:
+Execute the following command to install the package using **conda** :
 
 ```
 conda install numpy==1.22
