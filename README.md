@@ -1,4 +1,6 @@
 # 112-1_DataMining_SCPD
+National Taiwan University of Science and Technology (NTUST)
+Members: M11215021 洪子涵, , , , ,
 
 ## Experiment Enviroment
 To start, we prefer creating the environment using **conda** :
@@ -30,5 +32,32 @@ Dataset Links used by the author in the SCPD paper:
 
 The additional data set we applied is the flight records of the United States from Kaggle :
 * Kaggle Dataset: [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset)
+We use `datasets/airport_USAflight_dataPre.py` to and convert the dataset into `airport_USAflight.txt` in the format of `<date>, <departure airport>, <destination airport>, <number of flights>`.
+The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding index of each airport sorted according to ASCII.
 
-## 如何運行程式碼
+
+## Running the code
+We have placed the dataset in the specified folder in `/datasets`.
+* Run the following instruction to compute **DOS embedding** to generate the pkl of the dataset :
+```
+python subroutines/dos.py
+```
+<br>
+* Then run the following instruction to detect abnormal points in DOS embedding :
+```
+python subroutines/Anomaly_Detection.py
+```
+Finally, you will get the visual results corresponding to the dataset.
+Taking the [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset) from Kaggle as an example, 
+it will output `airport_USAflightSpectro.pdf`.
+<br>
+There will be a chart where you can observe anomalies in the dataset at different times.
+
+![The anomalies detection result of USA Airport Dataset](image.png)
+
+:::warning
+The *x-axis* is the different time points of the dataset, and the *y-axis* is the anomaly score.
+:::
+
+
+

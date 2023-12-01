@@ -8,7 +8,9 @@ import csv
 
 countData = {}
 airports = []
-dataset = open("Airports2.csv", "r")
+fileFolder = "airport_USAflight/"
+outfileName = "airport_USAflight"
+dataset = open(fileFolder + "Airports2.csv", "r")
 
 rows = csv.reader(dataset)
 
@@ -35,7 +37,7 @@ airports.sort()
 '''
 For txt output
 '''
-datasetSCPDFile = open('Airports_datasetSCPD.txt', 'w')
+datasetSCPDFile = open(fileFolder + outfileName + '.txt', 'w')
 
 for key in countData.keys():
     inData = key.split('_')
@@ -47,7 +49,7 @@ datasetSCPDFile.close()
 '''
 For csv output
 '''
-with open('Airports_datasetSCPD.csv', 'w', newline='') as datasetSCPDFile:
+with open(fileFolder + outfileName + '.csv', 'w', newline='') as datasetSCPDFile:
     
     writerCsv = csv.writer(datasetSCPDFile)
 
