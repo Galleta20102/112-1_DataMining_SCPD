@@ -50,10 +50,7 @@ The additional data set we applied is the flight records of the United States fr
 
 <br>
 
-We use `datasets/airport_USAflight_dataPre.py` to and convert the dataset into `airport_USAflight.txt` in the format of `<date>, <departure airport>, <destination airport>, <number of flights>`.
-
-<br>
-
+We use `datasets/airport_USAflight_dataPre.py` to and convert the dataset into `airport_USAflight.txt` in the format of `<date>, <departure airport>, <destination airport>, <number of flights>`.<br>
 The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding index of each airport sorted according to ASCII.
 
 
@@ -71,18 +68,10 @@ python subroutines/dos.py
 python subroutines/Anomaly_Detection.py
 ```
 
-Finally, you will get the visual results corresponding to the dataset.
-
-<br>
-
+Finally, you will get the visual results corresponding to the dataset.<br>
 Taking the [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset) from Kaggle as an example, 
-it will output `airport_USAflightSpectro.pdf`.
-
-<br>
-
-There will be a chart where you can observe anomalies in the dataset at different times.
-
-<br>
+it will output `airport_USAflightSpectro.pdf`.<br>
+There will be a chart where you can observe anomalies in the dataset at different times.<br>
 
 ![The anomalies detection result of USA Airport Dataset](image.png)
 
