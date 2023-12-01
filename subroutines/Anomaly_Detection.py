@@ -524,7 +524,7 @@ def plot_dblp_spectro2(fname, scores, score_labels, events, event_labels, diag_v
         #axs.axvspan(x1, x2, alpha=0.5, color=bar_c)
     axs.axvline(x=97,alpha=0.5, color=bar_c)
 
-    axs.plot(t, z_scores, color=colors[1], ls='solid', lw=0.5, label="SCPD score")
+    #axs.plot(t, z_scores, color=colors[1], ls='solid', lw=0.5, label="SCPD score")
 
     for e in range(len(events)):
         max_score = 0

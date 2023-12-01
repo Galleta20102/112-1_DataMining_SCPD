@@ -59,13 +59,13 @@ The `datasets/airport_USAflight/airports_Index.txt` contains the corresponding i
 - Run the following instruction to compute **DOS embedding** to generate the pkl of the dataset :
 
 ```
-python subroutines/dos.py
+python dos.py
 ```
 
 - Then run the following instruction to detect abnormal points in DOS embedding :
 
 ```
-python subroutines/Anomaly_Detection.py
+python Anomaly_Detection.py
 ```
 
 Finally, you will get the visual results corresponding to the dataset.<br>
