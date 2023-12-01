@@ -47,7 +47,7 @@ Dataset Links used by the author in the SCPD paper:
 - COVID flight dataset: [fight_scpd](https://object-arbutus.cloud.computecanada.ca/tgb/flight_scpd.zip)
 - Stablecoin dataset: [stablecoin_scpd](https://object-arbutus.cloud.computecanada.ca/tgb/stablecoin_scpd.zip)
 
-The additional data set we applied is the flight records of the United States from Kaggle :
+The additional dataset we applied is the flight records of the United States from Kaggle :
 - Kaggle Dataset: [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset)
 
 We use `datasets/airport_USAflight_dataPre.py` to and convert the dataset into `airport_USAflight.txt` in the format of `<date>, <departure airport>, <destination airport>, <number of flights>`.<br>
