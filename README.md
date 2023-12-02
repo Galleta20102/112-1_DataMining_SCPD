@@ -1,7 +1,7 @@
 # 112-1_DataMining_SCPD
 2023 Data Mining Final Project
 
-> National Taiwan University of Science and Technology (NTUST)
+> National Taiwan University of Science and Technology (NTUST)<br>
 > Department of Computer Science and Information Engineering (CSIE)
 	
 
@@ -44,8 +44,8 @@ deactivate
 ## Getting the dataset
 Dataset Links used by the author in the SCPD paper :
 - MAG History dataset : [history_scpd](https://object-arbutus.cloud.computecanada.ca/tgb/history_scpd.zip)
-- COVID flight dataset: [fight_scpd](https://object-arbutus.cloud.computecanada.ca/tgb/flight_scpd.zip)
-- Stablecoin dataset: [stablecoin_scpd](https://object-arbutus.cloud.computecanada.ca/tgb/stablecoin_scpd.zip)
+- COVID flight dataset : [fight_scpd](https://object-arbutus.cloud.computecanada.ca/tgb/flight_scpd.zip)
+- Stablecoin dataset : [stablecoin_scpd](https://object-arbutus.cloud.computecanada.ca/tgb/stablecoin_scpd.zip)
 
 The additional dataset we applied is the flight records of the United States from Kaggle :
 - Kaggle Dataset: [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa-airport-dataset)
@@ -74,7 +74,7 @@ Taking the [USA Airport Dataset](https://www.kaggle.com/datasets/flashgordon/usa
 it will output `airport_USAflightSpectro.pdf`.<br>
 There will be a chart where you can observe anomalies in the dataset at different times.<br>
 
-![The anomalies detection result of USA Airport Dataset](image-1.png)
+![The anomalies detection result of USA Airport Dataset](Anomaly Detesction Result - airport_USAflight.png)
 
 <br>
 
