@@ -486,7 +486,8 @@ def plot_dblp_spectro(fname, scores, score_labels, events, event_labels, diag_ve
     axs.tick_params(axis='both', which='major', labelsize=6)
     plt.savefig(fname+'Spectro.pdf', bbox_inches='tight')
     plt.close()
-#有改的
+
+# Modify
 def plot_dblp_spectro2(fname, scores, score_labels, events, event_labels, diag_vecs, dates_idx, dates, initial_window=10):
 
     labels = list(range(0,len(scores[0]),1))
@@ -603,7 +604,8 @@ def MAG_geology(fname, r1, r2, outname="MAG_Geology"):
     diag_vecs = diag_vecs[r1:r2]
     plot_dblp_spectro(outname, scores, score_labels, events, event_labels, diag_vecs, dates_idx, dates, initial_window=max(windows))
     return z_overall
-#有改的
+    
+# Modify
 def airport_geology(fname, r1, r2, outname="airport_Geology"):
     windows = [5,10]
     difference=True

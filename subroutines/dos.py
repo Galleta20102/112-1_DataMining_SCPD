@@ -178,9 +178,7 @@ def mag_history_dos(Nmoment=10, nZ=20, npts=50):
 4. apply jackson_filter
 '''
 
-# 有改的
-
-
+# Modify
 def airport_history_dos(Nmoment=10, nZ=20, npts=50):
     experimentsName = "airport_USAflight"
     fname = "../datasets/airport_USAflight/" + experimentsName + ".txt"
@@ -356,7 +354,7 @@ if __name__ == '__main__':
     '''
     run this block for airdataset
     '''
-    # 有改的
+    # Modify
     Nmoment = 20
     nZ = 100
     npts = 50
@@ -366,7 +364,6 @@ if __name__ == '__main__':
     run this block for airdataset
     '''
     # coin_dos(Nmoment=Nmoment, nZ=nZ, npts=npts)
-    # 檔案過大，不利於放置github，請至https://github.com/shenyangHuang/SCPD下載，即可驅動，一般電腦約莫20-30分鐘
 
     '''
     run this block of code for synthetic experiments
