@@ -8,7 +8,7 @@
 Team 9 : `M11215021 洪子涵`, `M11202152 李尚霖`,　`M11202156 張暐杰`,
 `M11215029 章詣欣`,　`M11215077 管子竣`,　`M11215094 李文正`.
 
-This repository is the final project of the **data mining** course.<br>
+This repository is the final project of the **Data Mining** course.<br>
 We introduce and implement a PAKDD paper, and run other interesting datasets.
 
 Paper :  PAKDD 2023 paper [Fast and Attributed Change Detection on Dynamic Graphs with Density of States](https://arxiv.org/abs/2305.08750)
