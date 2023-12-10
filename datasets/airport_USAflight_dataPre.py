@@ -56,3 +56,13 @@ with open(fileFolder + outfileName + '.csv', 'w', newline='') as datasetSCPDFile
     for key in countData.keys():
         inData = key.split('_')
         writerCsv.writerow([inData[0], airports.index(inData[1]), airports.index(inData[2]), countData[key]])
+
+'''
+For each Aairports Index
+'''
+AirportsIndexFile = open('AirportsIndex.txt', 'w')
+
+for index in range(len(airports)):
+    AirportsIndexFile.write(airports[index] + "," + str(index) + "\n")
+    
+AirportsIndexFile.close()
