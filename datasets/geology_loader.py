@@ -47,9 +47,8 @@ def load_temporarl_edgelist(fname, max_nodes=-1):
     G_times.append(G)
     print("maximum time stamp is " + str(len(G_times)))
     return G_times
-# 有改的
 
-
+# Modify
 def load_temporarl_edgelist2(fname, max_nodes=-1):
     edgelist = open(fname, "r")
     lines = list(edgelist.readlines())
